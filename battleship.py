@@ -1,4 +1,6 @@
 # Battleship game, simple as that
+import os
+os.system("clear")
 
 from random import randint
 
