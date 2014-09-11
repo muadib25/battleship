@@ -59,10 +59,12 @@ for turn in range(4):
         elif(board[guess_row][guess_col] == "X"):
             print "You guessed that one already. You lose a turn, sorry!."
         else:
-            print "You missed my battleship! Hahahaha!"
+            os.system("clear")
+	    print "You missed my battleship! Hahahaha!"
             print
 	    board[guess_row][guess_col] = "X"
         if turn == 3:
+	    board[ship_row][ship_col] = "A"
             print_board(board)
             print
 	    print "Game Over, baby!"
