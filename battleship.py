@@ -1,4 +1,5 @@
 # Battleship game, simple as that
+# Works only in Python 2.7
 import os
 os.system("clear")
 
